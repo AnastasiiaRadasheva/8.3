@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>1030e7b5-a726-4d6b-b20d-70669f41b961</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>_8.3new.py</StartupFile>
+    <StartupFile>epost_module1.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,7 +21,12 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="epost_module1.py" />
+    <Compile Include="e_post.py" />
     <Compile Include="_8.3new.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="thems.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
